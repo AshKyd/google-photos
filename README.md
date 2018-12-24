@@ -1,4 +1,4 @@
-# google-photos
+# googlephotos
 
 Wrapper around the google photos API. The API reference can be found [here](https://developers.google.com/photos/library/reference/).
 
@@ -61,7 +61,7 @@ const url = oauth2Client.generateAuthUrl({
   scope: scopes
 });
 
-// Send the user to the url from above. Once they grant access they will be redirected to the  
+// Send the user to the url from above. Once they grant access they will be redirected to the
 // the redirect URL above with a query param code in the redirect. Use the code below to get the
 // access token.
 
